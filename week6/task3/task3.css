@@ -1,0 +1,89 @@
+
+.container{
+    display: grid;
+    width: 1512px;
+    height: 100px;
+    grid-column: 1/3;
+    grid-row: 1/1;
+    background: #1F2022;
+    grid-template-columns: 530px 1fr 1fr 1fr 1fr 531px;
+    
+}
+.logo{
+    display: grid;
+    color: #EEE;
+font-family: Josefin Sans;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 40px;
+}
+.portfolio{
+    display: grid;
+    color: #00ADB5;
+font-family: Josefin Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 40px;
+}
+.blog{
+    display: grid;
+    color: #EEE;
+font-family: Josefin Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 40px;
+}
+.clrev{
+    display: grid;
+    color: #EEE;
+font-family: Josefin Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 40px;
+}
+.cont{
+    display: grid;
+    color: #EEE;
+font-family: Josefin Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 40px;
+
+}
+.call{
+    display: grid;
+    color: #EEE;
+font-family: Josefin Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 40px;
+
+}
+.svgaside{
+    display: grid;
+    width: 1512px;
+    height: 882px;
+    grid-template-columns: 1fr 550px 154px;
+    grid-template-rows: 1fr 27px 122px 120px 60px 1fr;
+    
+}
+.aside{
+    display: grid;
+    width: 220px;
+height: 882px;
+background: #1F2022;
+grid-column: 1fr 220px;
+grid-row: 1fr;
+}
