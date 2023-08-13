@@ -1,0 +1,125 @@
+
+.container{
+    display: grid;
+    width: 100vw;
+    height: 10vh;
+    grid-column: 1/6;
+    grid-row: 1/1;
+    background: #1F2022;
+    grid-template-columns: 20% 1fr 1fr 1fr 1fr 20%;
+    
+}
+.logo{
+    display: grid;
+    color: #EEE;
+font-family: Josefin Sans;
+font-size: 2em;
+font-style: normal;
+font-weight: 2em;
+line-height: normal;
+margin: 40px;
+}
+.portfolio{
+    display: grid;
+    color: #00ADB5;
+font-family: Josefin Sans;
+font-size: 1.5em;
+font-style: normal;
+line-height: normal;
+margin: 40px;
+}
+.blog{
+    display: grid;
+    color: #EEE;
+font-family: Josefin Sans;
+font-size: 1.5em;
+font-style: normal;
+line-height: normal;
+margin: 40px;
+}
+.clrev{
+    display: grid;
+    color: #EEE;
+font-family: Josefin Sans;
+font-size: 1.5em;
+font-style: normal;
+line-height: normal;
+margin: 40px;
+}
+.cont{
+    display: grid;
+    color: #EEE;
+font-family: Josefin Sans;
+font-size: 1.5em;
+font-style: normal;
+line-height: normal;
+margin: 40px;
+
+}
+.call{
+    display: grid;
+    color: #EEE;
+font-family: Josefin Sans;
+font-size: 1.5em;
+font-style: normal;
+line-height: normal;
+margin: 40px;
+
+}
+.picaside{
+    display: grid;
+    width: 100vw;
+    height: 80vh;
+    grid-template-columns: 80% 1fr;
+    align-items: start;   
+}
+@media screen and (min-width: 1440px)
+ {
+    .footer {
+        display: grid;
+        width: 100vw;
+        height: 10vh;
+        background-color: #00ADB5;
+        font-family: Josefin Sans;
+font-size: 3em;
+align-items: center;
+justify-content: center;
+
+
+    } 
+    .aside{
+        display: grid;
+        width: 20vw;
+    height: 80vh;
+    background: #1F2022;
+    color: #EEE;
+    font-family: Josefin Sans;
+    font-size: 3em;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    .pic {
+        display: grid;
+        width: 80vw;
+        height: 80vh;
+        background: #1F2022;
+        justify-content: start;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .footer {
+        display: none;
+    }
+    .aside{
+        display: none;
+    }
+    .pic {
+        display: grid;
+        width: 100vw;
+        height: 100vh;
+        background: #1F2022;
+        justify-content: start;
+    }
+}
+.
